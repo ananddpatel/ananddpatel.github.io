@@ -13,50 +13,7 @@
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/foundation.css">
-		<style>
-			.title {
-				font-weight: 600;
-			}
-			.hero {
-
-			}
-
-			.main {
-				margin-top: 25vh;
-			}
-
-			.devicon {
-				font-size: 3rem
-			}
-
-			@media only screen and (max-width: 40em) {
-				.devicon {
-					font-size: 2rem
-				}
-			}
-
-			.sep {
-				margin-bottom: 15px;
-			}
-
-			#hero {
-				background-color: #ffcece;
-				height: 100vh;
-			}
-
-			#projects {
-				background-color: #dcfdb5
-			}
-			#stack {
-				background-color: #03a9f4
-			}
-			#about {
-				background-color: #f7761f
-			}
-			#contact {
-				background-color: #fff270
-			}
-		</style>
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
 		<!-- FRONT INTRO TITLE W/ LINKS TO DIFF SECTIONS -->
@@ -70,10 +27,10 @@
 					<h5 class="text-center">Aspring backend developer</h5>
 					<div class="menu-centered">
 						<ul class="menu">
-							<li><a href="#"><i class="fa fa-briefcase fa-lg"></i></a></li>
-							<li><a href="#"><i class="fa fa-code fa-lg"></i></a></li>
-							<li><a href="#"><i class="fa fa-user fa-lg"></i></a></li>
-							<li><a href="#"><i class="fa fa-envelope-o fa-lg"></i></a></li>
+							<li><a href="#projects"><i class="fa fa-briefcase fa-lg"></i></a></li>
+							<li><a href="#stack"><i class="fa fa-code fa-lg"></i></a></li>
+							<li><a href="#about"><i class="fa fa-user fa-lg"></i></a></li>
+							<li><a href="#contact"><i class="fa fa-envelope-o fa-lg"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -83,21 +40,66 @@
 		<!-- PROJECTS -->
 		<section id="projects" class="sep">
 		<h1 class="text-center"><span class="title">P</span>rojects</h1>
+<!-- 		<section class="mobile-projects show-for-small-only">
+			<div class="column column-block">
+				<img src="images/city.png" class="thumbnail" alt="">
+			</div>
+		</section> -->
 		<section class="row small-up-1 medium-up-3">
 			<div class="column column-block">
-				<img src="images/city.png" class="thumbnail" alt="">
+				<div class="text-center cards">
+				<img src="images/city.png" class="thumbnail" alt="" width="120">
+				<h4>Project 1</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<span class="label primary">Bootstrap</span>
+				<span class="label success">JQuery</span>
+				<span class="label alert">php</span>
+				</div>
 			</div>
 			<div class="column column-block">
-				<img src="images/city.png" class="thumbnail" alt="">
+				<div class="text-center cards">
+				<img src="images/city.png" class="thumbnail" alt="" width="120">
+				<h4>Project 2</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<span class="label primary">Bootstrap</span>
+				<span class="label success">JQuery</span>
+				<span class="label alert">php</span>
+				</div>
 			</div>
 			<div class="column column-block">
-				<img src="images/city.png" class="thumbnail" alt="">
+				<div class="text-center cards">
+				<img src="images/city.png" class="thumbnail" alt="" width="120">
+				<h4>Project 3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<span class="label primary">Bootstrap</span>
+				<span class="label success">JQuery</span>
+				<span class="label alert">php</span>
+				</div>
 			</div>
 			<div class="column column-block medium-4 medium-offset-2">
-				<img src="images/city.png" class="thumbnail" alt="">
+				<div class="text-center cards">
+				<img src="images/city.png" class="thumbnail" alt="" width="120">
+				<h4>Project 4</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<span class="label primary">Bootstrap</span>
+				<span class="label success">JQuery</span>
+				<span class="label alert">php</span>
+				</div>
 			</div>
 			<div class="column column-block medium-4">
-				<img src="images/city.png" class="thumbnail" alt="">
+				<div class="text-center cards">
+				<img src="images/city.png" class="thumbnail" alt="" width="120">
+				<h4>Project 5</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<span class="label primary">Bootstrap</span>
+				<span class="label success">JQuery</span>
+				<span class="label alert">php</span>
+				</div>
 			</div>
 		</section>
 		</section>
@@ -105,32 +107,17 @@
 		<!-- STACK -->
 		<section id="stack" class="sep">
 			<h1 class="text-center"><span class="title">S</span>tack</h1>
-			<!-- <div class="row small-up-4 medium-up-8">
-				<i class="devicon devicon-html5-plain colored column column-block"></i>
-				<i class="devicon devicon-css3-plain colored column column-block"></i>
-				<i class="devicon devicon-javascript-plain colored column column-block"></i>
-				<i class="devicon devicon-php-plain colored column column-block"></i>
-				<i class="devicon devicon-python-plain-wordmark colored column column-block"></i>
-				<i class="devicon devicon-java-plain colored column column-block"></i>
-				<i class="devicon devicon-mysql-plain-wordmark colored column column-block"></i>
-				<i class="devicon devicon-bootstrap-plain-wordmark colored column column-block"></i>
-				<i class="devicon devicon-git-plain-wordmark colored column column-block"></i>
-				<i class="devicon devicon-chrome-plain-wordmark colored column column-block"></i>
-			</div> -->
-
-			<div class="row">
-				<i class="devicon devicon-html5-plain colored | column small-3 text-center medium-1 medium-offset-1"></i>
-				<i class="devicon devicon-css3-plain colored | column small-3 text-center medium-1"></i>
-				<i class="devicon devicon-javascript-plain colored | column small-3 text-center medium-1"></i>
-				<i class="devicon devicon-php-plain colored | column small-3 text-center medium-1"></i>
-				<i class="devicon devicon-python-plain-wordmark colored | column small-3 text-center medium-1"></i>
-				<i class="devicon devicon-java-plain colored | column small-3 text-center medium-1"></i>
-				<i class="devicon devicon-mysql-plain-wordmark colored | column small-3 text-center medium-1"></i>
-				<i class="devicon devicon-git-plain-wordmark colored | column small-3 text-center medium-1"></i>
-				<!-- <div class="column medium-2 row"> -->
-					<i class="devicon devicon-bootstrap-plain-wordmark colored | column small-3 text-center medium-1"></i>
-					<i class="devicon devicon-chrome-plain-wordmark colored | column small-3 text-center medium-1 end"></i>				
-			 	<!-- </div> -->
+			<div class="text-center">
+				<i class="devicon devicon-html5-plain colored"></i>
+				<i class="devicon devicon-css3-plain colored"></i>
+				<i class="devicon devicon-javascript-plain colored"></i>
+				<i class="devicon devicon-php-plain colored"></i>
+				<i class="devicon devicon-python-plain-wordmark colored"></i>
+				<i class="devicon devicon-java-plain colored"></i>
+				<i class="devicon devicon-mysql-plain-wordmark colored"></i>
+				<i class="devicon devicon-git-plain-wordmark colored"></i>
+				<i class="devicon devicon-bootstrap-plain-wordmark colored"></i>
+				<i class="devicon devicon-chrome-plain-wordmark colored"></i>
 			</div>
 		</section>
 
@@ -139,22 +126,21 @@
 			<h1 class="text-center"><span class="title">A</span>bout</h1>
 			<div class="row">
 				<div class="columns medium-2 small-12 text-center">
-					<img src="images/lucas.png" width="150">
+					<!-- <img src="images/lucas.png" width="150"> -->
+					<img src="images/lucas.png" alt="Inky">
+					<!-- <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky"> -->
 				</div>
 				<div class="columns medium-10 small-12">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						consequat.
 					</p>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
+						quis nostrud exercitation.
 					</p>
 				</div>
 			</div>
@@ -164,11 +150,23 @@
 		<section id="contact" class="sep">
 			<h1 class="text-center"><span class="title">C</span>ontact</h1>
 			<div class="row">
-			<form action="https://formspree.io/test@test.com" class="form" method="POST">
-			    <p>Name & Email <input type="text" name="name"></p>
-			    <p>Message <input type="email" name="_replyto"></p>
-			    <div class="text-center"><input type="submit" class="button" value="Send"></div>
-			</form>
+				<div class="columns medium-4 text-center">
+					<ul>
+						<li><i class="fa fa-github-square"></i><a> Github</a></li>
+						<li><i class="fa fa-linkedin-square"></i><a> Linkedin</a></li>
+						<li><i class="fa fa-file-text"></i><a> Resume</a></li>
+						<li><i class="fa fa-envelope"></i><a> Email: anandpatel3@hotmail.com</a></li>
+					</ul>
+				</div>
+				<div class="columns medium-4 medium-offset-2 end">
+					<form action="https://formspree.io/test@test.com" class="form" method="POST">
+					    <!-- <p>Name & Email <input type="text" name="name"></p> -->
+					    <!-- <p>Message <input type="email" name="_replyto"></p> -->
+					    <input type="email" name="email" placeholder="Email">
+						<textarea name="message" placeholder="Message" rows="6"></textarea>
+					    <div class="text-center"><input type="submit" class="button" value="Send"></div>
+					</form>
+				</div>
 			</div>
 		</section>
 
