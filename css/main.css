@@ -195,11 +195,11 @@ a:hover {
 
 }
 
-textarea, input, button { outline: none !important; }
+/*textarea, input, button { outline: none !important; }*/
 
 input[type=email], textarea {
 	font-family: "Josefin-sans";
-    background-color: #383e48 !important;
+    background-color: #111318;
     color: #c4b998;
     /*border: none;*/
     border: 1px solid #50452e;
