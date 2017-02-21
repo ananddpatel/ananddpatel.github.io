@@ -27,7 +27,7 @@ onhover: #121316
 }
 
 body {
-	background-image: url('C:/Users/Anand/Desktop/random_fonts/redox_02_@2X.png') !important;
+	background-image: url('../images/gplaypattern.png');
 }
 
 h1 {
@@ -74,10 +74,8 @@ a:hover {
 ============ HERO ==============
 */
 #hero {
-	/*background-color: #ffcece;*/
 	height: 100vh;
 	font-family: roboto;
-	/*background-image: url('C:/Users/Anand/Desktop/random_fonts/gplaypattern.png');*/
 	background-color: rgba(18, 19, 22, 0.96);
 }
 
