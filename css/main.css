@@ -117,6 +117,7 @@ a:hover {
   background-color: #111318;
   border-radius: 3px;
   transition: all .1s ease-in;
+  /*height: 421px;*/
 }
 
 .cards:hover {
@@ -127,8 +128,17 @@ a:hover {
 	color: #daab5f;
 }
 
+.cards>img {
+    height: 150px;
+    width: 200px;
+}
+
 .thumbnail {
 	border: solid 4px #ceb57e;
+}
+
+#projects i {
+    line-height: 0;
 }
 
 /*
