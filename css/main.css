@@ -80,7 +80,13 @@ a:hover {
 }
 
 .main {
-	margin-top: 25vh;
+	margin-top: 20vh;
+}
+
+@media only screen and (max-width: 40em) {
+	.medium {
+		font-size: 40px;
+	}
 }
 
 /*
