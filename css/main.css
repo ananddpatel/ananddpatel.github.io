@@ -11,9 +11,6 @@
 /*
 ============ GENERAL ==============
 */
-.title {
-	font-weight: 600;
-}
 
 .sep {
 	padding: 15px 0 15px 0;
@@ -28,6 +25,9 @@ body {
 h1 {
 	font-family: "Beaufort";
 	color: #937341;
+}
+
+.huge {
 	font-size: 55px;
 }
 
@@ -82,12 +82,6 @@ a:hover {
 .main {
 	margin-top: 25vh;
 }
-
-#hero .menu>li>a {
-	font-size: 20px
-}
-
-
 
 /*
 ============ PROJECTS ==============
