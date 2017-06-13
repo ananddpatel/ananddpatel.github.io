@@ -27,6 +27,10 @@ h1 {
 	color: #937341;
 }
 
+h2 {
+	font-family: "Josefin-sans";
+}
+
 .huge {
 	font-size: 55px;
 }
@@ -124,7 +128,7 @@ a:hover {
 }
 
 .cards:hover {
-	background-color: #000e22;
+	background-color: rgba(14, 46, 95, 0.18);
 }
 
 .cards h2 {
