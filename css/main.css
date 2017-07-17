@@ -169,6 +169,10 @@ a:hover {
 	font-size: 10rem;
 }
 
+.devicon-wordpress-plain-wordmark {
+	color: #25a4d2;
+}
+
 @media only screen and (max-width: 40em) {
 	.devicon {
 		font-size: 5rem
