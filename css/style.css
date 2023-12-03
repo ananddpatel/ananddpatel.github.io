@@ -1,0 +1,62 @@
+body {
+  font-family: 'Karla', sans-serif;
+  height: 100vh;
+  font-weight: 500;
+  font-size: 1.125rem;
+  background-size: repeat;
+}
+
+body.dark {
+  background-image: url(../images/confetti-doodles.svg);
+  color: #f0f0f0;
+}
+
+body {
+  background-image: url(../images/confetti-doodles-light.svg);
+  color: #272930;
+}
+
+a {
+  outline-color: transparent;
+  color: inherit;
+  text-decoration: none;
+  padding: 0;
+}
+
+.spaced {
+  letter-spacing: 2Q;
+}
+
+.title {
+  letter-spacing: 10Q;
+  font-weight: 600;
+  font-size: 5.5rem;
+  /* color: #26293c; */
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 100%;
+}
+
+.hero {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.title-about {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: end;
+}
+
+@media (min-width: 576px) {
+  .socials {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .title-about {
+    padding-right: 40%;
+  }
+}
