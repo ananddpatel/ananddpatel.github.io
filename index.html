@@ -1,52 +1,158 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Anand Patel | Software Developer</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anand Patel — Staff Software Developer</title>
+  <meta name="description" content="Anand Patel, staff software developer at Wealthsimple. Previously TD, TCS, NRI. Open to select consulting work.">
+  <link rel="icon" href="images/favicon.ico">
+  <script>
+    (function () {
+      var stored = localStorage.getItem('theme');
+      if (stored) document.documentElement.setAttribute('data-theme', stored);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <noscript><style>.row { opacity: 1 !important; transform: none !important; }</style></noscript>
 </head>
 
-<body class="dark">
-	<div class="container">
-		<div class="hero d-flex flex-column h-100">
-			<nav class="d-flex justify-content-end">
-				<!-- <span class="ps-5 spaced" role="">.work</span> -->
-				<!-- <span class="ps-5 spaced" role="">.blog</span> -->
-			</nav>
-			<div class="py-5">
-				<h1 class="title me-0" style="cursor: pointer;" onclick="toggleDarkLightMode()">anand patel</h1>
-				<div class="title-about">
-					<p class="spaced">— software developer in toronto.</p>
-				</div>
-			</div>
-			<div class="h-100 d-flex flex-column justify-content-center">
-				<div class="socials d-flex flex-wrap justify-content-around">
-					<span class="py-3 px-1 spaced">
-						<a href="https://www.linkedin.com/in/ananddpatel/" target="_blank">.linkedin</a>
-					</span>
-					<span class="py-3 px-1 spaced">
-						<a href="https://github.com/ananddpatel" target="_blank">.github</a>
-					</span>
-					<span class="py-3 px-1 spaced">
-						<a href="./work">.work</a>
-					</span>
-					<span class="py-3 px-1 spaced "><a href="resume.pdf" target="_blank">.resume</a>
-					</span>
-				</div>
-			</div>
-		</div>
-	</div>
+<body>
+  <div class="bg-field">
+    <svg preserveAspectRatio="none">
+      <defs>
+        <pattern id="bg-dots" width="48" height="48" patternUnits="userSpaceOnUse">
+          <circle cx="1.6" cy="1.6" r="1.6" fill="var(--accent)" opacity="0.2" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#bg-dots)" />
+    </svg>
+  </div>
+
+  <div class="wrap">
+    <nav class="nav">
+      <a class="mark" href="./">AP.</a>
+      <div class="nav-links">
+        <a class="current" href="./">now</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme">☾</button>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <h1 class="hero-name">Anand Patel</h1>
+      <div class="hero-role"><span class="r">Staff developer at</span> <em>Wealthsimple.</em></div>
+
+      <p class="bio">
+        I build Wealthsimple's options trading platform. Before that: TD, TCS, NRI, and a biology
+        degree I didn't end up using.
+      </p>
+      <div class="links-inline">
+        <a href="https://www.linkedin.com/in/ananddpatel/" target="_blank" rel="noopener">LinkedIn</a><span>·</span>
+        <a href="https://github.com/ananddpatel" target="_blank" rel="noopener">GitHub</a><span>·</span>
+        <a href="resume.pdf" target="_blank">Résumé</a><span>·</span>
+        <a href="mailto:anandpatel3@hotmail.com">Contact</a>
+      </div>
+    </header>
+
+    <section class="section">
+      <span class="tag">Experience</span>
+      <div class="timeline">
+        <div class="row row-consult">
+          <div class="when"><span class="now">ongoing</span></div>
+          <div class="dot-col"><div class="dot"></div></div>
+          <div class="what">
+            <h3>Independent Consulting</h3>
+            <div class="org">Small businesses · general software &amp; AI</div>
+            <p>Usually small businesses running on tools a decade old, sometimes general software
+              or AI work. If that's you, <a href="mailto:anandpatel3@hotmail.com">get in touch</a>.</p>
+          </div>
+        </div>
+        <div class="row row-current">
+          <div class="when">Jul 2021 — <span class="now">present</span></div>
+          <div class="dot-col"><div class="dot"></div></div>
+          <div class="what">
+            <h3>Staff Developer</h3>
+            <div class="org">Wealthsimple</div>
+            <ul class="bullets">
+              <li>Staff developer on the options and precious metals trading platform.</li>
+              <li>Built the options trading platform; led the launch of 24/7 precious metals investing.
+                Kotlin, Spring Boot, React, GraphQL, Kafka, FIX.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="when">Nov 2018 — Jul 2021</div>
+          <div class="dot-col"><div class="dot"></div></div>
+          <div class="what">
+            <h3>Senior Software Developer</h3>
+            <div class="org">TD</div>
+            <p>Angular 6+, Spring, MongoDB and Kafka streams; zero-downtime releases across UI, JBoss
+              and microservice layers.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="when">Dec 2017 — Nov 2018</div>
+          <div class="dot-col"><div class="dot"></div></div>
+          <div class="what">
+            <h3>Angular &amp; Node Developer</h3>
+            <div class="org">Tata Consultancy Services</div>
+            <p>Redux-pattern Angular 5 app over a Node/MongoDB microservice backend; migrated an
+              outdated webpack setup to current tooling.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="when">Sep 2017 — Dec 2017</div>
+          <div class="dot-col"><div class="dot"></div></div>
+          <div class="what">
+            <h3>Web Developer</h3>
+            <div class="org">NRI Industrial Sales</div>
+            <p>Laravel backend for an e-commerce platform and its internal operations tooling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer"><span class="copy">©</span> anand patel</footer>
+  </div>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.getElementById('theme-toggle');
+      function isDark() {
+        var explicit = root.getAttribute('data-theme');
+        if (explicit) return explicit === 'dark';
+        return window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+      function paint() {
+        toggle.textContent = isDark() ? '☀' : '☾';
+      }
+      toggle.addEventListener('click', function () {
+        var next = isDark() ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        toggle.classList.add('spin');
+        setTimeout(function () { toggle.classList.remove('spin'); }, 450);
+        paint();
+      });
+      paint();
+    })();
+
+    if (window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2, rootMargin: '0px 0px -40px 0px' });
+      document.querySelectorAll('.row').forEach(function (row) { io.observe(row); });
+    }
+  </script>
 </body>
-<script>
-	function toggleDarkLightMode() {
-		document.body.classList.toggle('dark');
-	}
-</script>
 
 </html>
